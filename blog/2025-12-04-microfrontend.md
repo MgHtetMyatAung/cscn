@@ -26,11 +26,11 @@ Micro Frontend ဆိုတာ **Microservices** ရဲ့ စိတ်ကူး
 
 ---
 
-## 🧱 အဓိက စိတ်ကူး (Core Concept)
+## Core Concept
 
 Micro Frontend ရဲ့ အဓိက အနှစ်သာရကို အောက်ပါအတိုင်း မှတ်သားနိုင်ပါတယ်။
 
-### ၁။ အပိုင်းလိုက်ခွဲခြားခြင်း (Decomposition/Modularity)
+### 1. Decomposition/Modularity
 
 ဥပမာ - Ecommerce Website တစ်ခုကို စဉ်းစားကြည့်ပါ။
 
@@ -43,13 +43,13 @@ Micro Frontend ရဲ့ အဓိက အနှစ်သာရကို အေ�
 > **Monolith** မှာဆိုရင် ဒါတွေအားလုံးဟာ ကုဒ်ဘလော့ကြီး တစ်ခုတည်းမှာ ရှိနေပါတယ်။
 > **Micro Frontend** မှာဆိုရင် အပေါ်က အပိုင်းတစ်ခုချင်းစီတိုင်းကို **သီးခြား App/Module** တစ်ခုအနေနဲ့ တည်ဆောက်လိုက်တာပါ။
 
-### ၂။ သီးခြား လည်ပတ်နိုင်ခြင်း (Independent Development & Deployment)
+### 2. Independent Development & Deployment
 
 Micro Frontend အပိုင်းတစ်ခုချင်းစီဟာ ကိုယ်ပိုင် Repository (Codebase), ကိုယ်ပိုင် Dependencies, ကိုယ်ပိုင် Build Pipeline နဲ့ **သီးခြား Deploy** လုပ်နိုင်ပါတယ်။
 
 ဆိုလိုတာက Shopping Cart အဖွဲ့ဟာ Product List အဖွဲ့ ဘာလုပ်နေလဲဆိုတာကို စောင့်စရာမလိုဘဲ သူတို့အပိုင်းကို လိုအပ်သလို ပြောင်းလဲ၊ စမ်းသပ်၊ ထုတ်ပြန်နိုင်တာ ဖြစ်ပါတယ်။
 
-### ၃။ နည်းပညာမျိုးစုံ သုံးစွဲနိုင်ခြင်း (Technology Agnostic / Polyglot)
+### 3. Technology Agnostic / Polyglot
 
 တစ်ခုစီ ခွဲထားတဲ့ Micro Frontend လေးတွေဟာ မတူညီတဲ့ နည်းပညာတွေ၊ Framework တွေကို သုံးစွဲနိုင်ပါတယ်။
 
@@ -90,7 +90,7 @@ Micro Frontend အပိုင်းတစ်ခုချင်းစီဟာ �
 
 ---
 
-## 🛑 အားနည်းချက်များ (Drawbacks/Challenges)
+## 🛑 Drawbacks/Challenges
 
 Micro Frontend ဟာ ကောင်းမွန်ပေမယ့် စိန်ခေါ်မှုတွေလည်း ရှိပါတယ်။
 

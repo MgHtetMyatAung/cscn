@@ -5,7 +5,7 @@ authors: [MrBoss]
 # tags: [facebook, hello, docusaurus]
 ---
 
-ကျွန်တော်ကတော့ Senior Frontend Developer တစ်ယောက်အနေနဲ့ ဒီနေ့မှာ Meta (Facebook) ကနေ မကြာသေးခင်ကမှ Open Source ပေးလိုက်တဲ့ **StyleX** အကြောင်းကို ဆွေးနွေးပေးချင်ပါတယ်။
+ကျွန်တော်ကတော့ ဒီနေ့မှာ Meta (Facebook) ကနေ မကြာသေးခင်ကမှ Open Source ပေးလိုက်တဲ့ **StyleX** အကြောင်းကို ဆွေးနွေးပေးချင်ပါတယ်။
 
 ကျွန်တော်တို့ Large Scale Project တွေဖြစ်တဲ့ E-commerce, Banking, Dashboard တွေရေးတဲ့အခါ CSS နဲ့ပတ်သက်ပြီး ခေါင်းကိုက်ရတဲ့ ပြဿနာတွေ (Naming Conflicts, File Size ကြီးလာတာတွေ) ကို StyleX က ဘယ်လိုဖြေရှင်းပေးလဲဆိုတာ လေ့လာကြည့်ရအောင်။
 
@@ -37,7 +37,7 @@ StyleX က Style တွေကို အသေးစိတ်ဖြိုခွ�
 
 Class name ပေးရတာ ခေါင်းစားဖူးလား? StyleX မှာ Class name တွေကို သူက **Auto generate** လုပ်ပေးတာမို့ ကိုယ်ပေးလိုက်တဲ့ class name တူသွားပြီး တခြားနေရာမှာ Layout ပျက်သွားတာမျိုး (**Specificity Wars**) လုံးဝ မဖြစ်တော့ပါဘူး။
 
-### 🧠 Predictability (ခန့်မှန်းရလွယ်ကူခြင်း)
+### 🧠 Predictability
 
 ပုံမှန် CSS မှာ Class တွေကို အစီအစဉ်ကျော်ရေးမိရင် ဘယ်ဟာက အလုပ်လုပ်မလဲဆိုတာ ရှုပ်ထွေးတတ်ပါတယ်။ StyleX မှာတော့ **"Last Style Wins"** ပါ။ နောက်ဆုံးမှ ထည့်လိုက်တဲ့ Style က အမြဲနိုင်ပါတယ်။ Logic က ရိုးရှင်းပါတယ်။
 
@@ -51,7 +51,7 @@ TypeScript နဲ့ တွဲရေးတဲ့အခါ ကိုယ်က Sty
 
 React Native ရေးဖူးတဲ့သူတွေဆိုရင် StyleX က အရမ်းရင်းနှီးပြီးသား ဖြစ်နေမှာပါ။
 
-### အဆင့် (၁) - Define Styles (`stylex.create`)
+### step (1) - Define Styles (`stylex.create`)
 
 Style တွေကို Object အနေနဲ့ အရင်ကြေညာပါမယ်။ `10px` လို့ String နဲ့ မရေးဘဲ **Number** နဲ့ ရေးရတာ သတိထားပါ။
 
@@ -71,7 +71,7 @@ const styles = stylex.create({
 });
 ```
 
-### အဆင့် (၂) - Apply Styles (`stylex.props`)
+### step(2) - Apply Styles (`stylex.props`)
 
 HTML element တွေမှာ `stylex.props` ကိုသုံးပြီး ပြန်ခေါ်သုံးပါမယ်။ Condition တွေနဲ့ တွဲသုံးရတာ အရမ်းမိုက်ပါတယ်။
 
@@ -86,7 +86,7 @@ function MyButton({ isActive }) {
 }
 ```
 
-### Behind the Scenes (ဘာတွေဖြစ်သွားလဲ):
+### Behind the Scenes
 
 Browser မှာ Run တဲ့အခါ အပေါ်က Code ကနေ အောက်ကလို Class name တွေအဖြစ် အလိုအလျောက် ပြောင်းသွားပါမယ်။
 
@@ -94,7 +94,7 @@ Browser မှာ Run တဲ့အခါ အပေါ်က Code ကနေ အ�
 <div class="x1e2nbdu x1343 hji">Click Me</div>
 ```
 
-## 📝 Summary for Myanmar Devs 🇲🇲
+## 📝 Summary
 
 အနှစ်ချုပ်ပြောရရင် -
 
